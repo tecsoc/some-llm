@@ -1,0 +1,12 @@
+.bodyContainer {
+  display: flex;
+}
+
+.historyMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: min(35%, 300px);
+  background-color: ghostwhite;
+  padding: 1.5em;
+}
