@@ -1,0 +1,25 @@
+.message_area {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  .text_area {
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+  }
+    
+  &.sender{
+    justify-content: flex-end;
+    .text_area {
+      background-color: #529cf9;
+      color: #ffffff;
+    }
+  }
+    
+  &.receiver {
+    justify-content: flex-start;
+    margin-right: 3rem;
+    .text_area {
+      background-color: #ffffff;
+    }
+  }
+}
