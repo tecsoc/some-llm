@@ -28,4 +28,4 @@ const ChatMessage = ({ text, iconUrl, messageType }: ChatMessageProps) => {
   )
 }
 
-export default ChatMessage;
+export default React.memo(ChatMessage);
